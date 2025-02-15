@@ -1,0 +1,36 @@
+body{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+ li{
+    /* cor de fundo */
+    background-color: aqua;
+    /* distancia do elemento debaixo */
+    margin-bottom: 10px;
+    /* bordas mais redondas */
+    border-radius: 5px;
+    /* retira o ponto do inicio do item */
+    list-style: none;
+    /* distancia do conteudo para as bordas */
+    padding: 5px;
+    /* tamanho do elemento */
+    width: 20%;
+    height: 25%;
+    /* alinha o texto dentro do elemento */
+    text-align: center;
+    
+}
+
+li img {
+    width: 100%; /* A imagem nunca será maior que seu contêiner */
+    height: auto;
+  }
+
+li:hover{
+    background-color: pink;
+    /* muda o icone do mouse */
+    cursor: pointer;
+} 
