@@ -1,7 +1,10 @@
+
+
+
 var listaProdutos = [
     { img: "tacos.png", titulo: "Tacos", descricao: "Taco é um prato típico do México, feito de tortilla de milho frita e recheada.", preco: 32 },
-    { img: "burrito.png", titulo: "Burrito", descricao: "Burrito é um prato típico da culinária mexicana e Tex-Mex, feito com uma tortilla de farinha recheada com diversos ingredientes.", preco: 36},
-    { img: "guacamole.png", titulo: "Guacamole", descricao: "Guacamole é um molho, pasta ou salada de abacate temperado, originário do México.", preco: 60 }
+    { img: "burrito.png", titulo: "Burrito", descricao: "Burrito é feito com uma tortilla de farinha recheada com diversos ingredientes.", preco: 36},
+    { img: "guacamole3.png", titulo: "Guacamole", descricao: "Guacamole é um molho ou pasta de abacate temperado, originário do México.", preco: 60 }
 ]  
 
 function exibirLista() {
@@ -40,7 +43,7 @@ console.log(listaProdutos)
 //     }
 // ]
 // todo elemento selecionado
-console.log(listaProdutos[0])
+
 // {
 //     "img": "smartv.png",
 //     "titulo": "tv",
@@ -48,5 +51,5 @@ console.log(listaProdutos[0])
 //     "preco": 2000
 // },
 // apenas uma variavel do elemento selecionado
-console.log(listaProdutos[2].titulo)
+
 // "tv sobre"

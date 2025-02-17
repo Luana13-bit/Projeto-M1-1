@@ -7,21 +7,23 @@ body{
 
  li{
     /* cor de fundo */
-    background-color: aqua;
+    background-color: rgb(197, 50, 50);
     /* distancia do elemento debaixo */
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     /* bordas mais redondas */
     border-radius: 5px;
     /* retira o ponto do inicio do item */
     list-style: none;
     /* distancia do conteudo para as bordas */
-    padding: 5px;
+    padding: 2px;
     /* tamanho do elemento */
-    width: 20%;
-    height: 25%;
+    width: 300px;
+    height: 400px;
     /* alinha o texto dentro do elemento */
     text-align: center;
-    
+    text-size-adjust: auto;
+  
+ 
 }
 
 li img {
@@ -30,7 +32,7 @@ li img {
   }
 
 li:hover{
-    background-color: pink;
+    background-color: rgb(60, 180, 60);
     /* muda o icone do mouse */
     cursor: pointer;
 } 
