@@ -1,13 +1,34 @@
-body{
-    background-color: beige;
-    display: flex;
-    flex-direction: row;
-    gap: 6px;
+
+
+body {
+
+    background-color: black;
+    color: white;
 }
 
- li{
+
+#lista-produtos{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    color: white;
+}
+
+.descricao{
+    height: 50px;
+}
+
+#lista-produtos li{
     /* cor de fundo */
-    background-color: rgb(197, 50, 50);
+    background-color: rgb(188, 13, 4);
     /* distancia do elemento debaixo */
     margin-bottom: 5px;
     /* bordas mais redondas */
@@ -17,8 +38,8 @@ body{
     /* distancia do conteudo para as bordas */
     padding: 2px;
     /* tamanho do elemento */
-    width: 300px;
-    height: 400px;
+    width: 30%;
+    height: 450px;
     /* alinha o texto dentro do elemento */
     text-align: center;
     text-size-adjust: auto;
@@ -26,13 +47,8 @@ body{
  
 }
 
-li img {
-    width: 100%; /* A imagem nunca será maior que seu contêiner */
-    height: auto;
-  }
-
-li:hover{
-    background-color: rgb(60, 180, 60);
+#lista-produtos li:hover{
+    background-color: rgb(47, 206, 47);
     /* muda o icone do mouse */
     cursor: pointer;
 } 
