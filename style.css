@@ -2,8 +2,8 @@
 
 body {
 
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: rgb(23, 19, 19);
 }
 
 
@@ -18,8 +18,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 5px;
-    color: white;
+    gap: 16px;
+    
 }
 
 .descricao{
@@ -28,7 +28,7 @@ body {
 
 #lista-produtos li{
     /* cor de fundo */
-    background-color: rgb(188, 13, 4);
+    background-color: rgb(202, 31, 22);
     /* distancia do elemento debaixo */
     margin-bottom: 5px;
     /* bordas mais redondas */
@@ -48,7 +48,23 @@ body {
 }
 
 #lista-produtos li:hover{
-    background-color: rgb(47, 206, 47);
+    background-color: rgb(44, 211, 44);
     /* muda o icone do mouse */
     cursor: pointer;
 } 
+
+.dark-mode{
+    background-color: rgb(8, 8, 8);
+    color: white;
+
+}
+
+.dark-button{
+    align-self: center;
+    background-color: brown;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}

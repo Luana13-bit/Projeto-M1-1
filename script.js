@@ -2,12 +2,12 @@
 
 
 var listaProdutos = [
-    { img: "tacos.png", titulo: "Tacos", descricao: "Taco é um prato típico do México, feito de tortilla de milho frita e recheada.", preco: 32},
-    { img: "burrito.png", titulo: "Burrito", descricao: "Burrito é feito com uma tortilla de farinha recheada com diversos ingredientes.", preco: 36},
-    { img: "guacamole3.png", titulo: "Guacamole", descricao: "Guacamole é um molho ou pasta de abacate temperado, originário do México.", preco: 60},
-    { img: "bowlcamarao.jpeg", titulo: "Bowl de Camarao", descricao: "O bowl de camarão pode ser feito com camarão, arroz, abacate, legumes, e temperos.", preco: 48},
-    { img: "fajitas.jpeg", titulo: "Fajitas", descricao: "É feita de carnes populares como frango, porco, camarão e todos os cortes de carne bovina.", preco: 49},
-    { img: "chillibeans.jpeg", titulo: "Chilli Beans", descricao: "O chilli beans é um prato picante, saboroso e nutritivo, que pode ser servido como acompanhamento ou prato principal.", preco: 59}
+    { img: "tacos.png", titulo: "Tacos", descricao: "Taco é um prato típico do México, feito de tortilla de milho frita e recheada.", preco: "32,00"},
+    { img: "burrito.png", titulo: "Burrito", descricao: "Burrito é feito com uma tortilla de farinha recheada com diversos ingredientes.", preco: "36,00"},
+    { img: "guacamole3.png", titulo: "Guacamole", descricao: "Guacamole é um molho ou pasta de abacate temperado, originário do México.", preco: "60,00"},
+    { img: "bowlcamarao.jpeg", titulo: "Bowl de Camarao", descricao: "O bowl de camarão pode ser feito com camarão, arroz, abacate, legumes, e temperos.", preco: "48,00"},
+    { img: "fajitas.jpeg", titulo: "Fajitas", descricao: "É feita de carnes populares como frango, porco, camarão e todos os cortes de carne bovina.", preco: "49,00"},
+    { img: "chillibeans.jpeg", titulo: "Chilli Beans", descricao: "O chilli beans é um prato picante, saboroso e nutritivo, que pode ser servido como acompanhamento ou prato principal.", preco: "59,00"}
   
 ]  
 
@@ -48,6 +48,9 @@ function exibirLista() {
 }
 exibirLista();
 
+function modoEscuro(){
+    document.body.classList.toggle("dark-mode")
+}
 
 
 
